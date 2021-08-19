@@ -1,0 +1,308 @@
+/*fdf6f0
+fff5eb
+fff5eb
+39a2db
+*/
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  overflow-x: hidden;
+
+  font-family: "Sorts Mill Goudy", serif;
+}
+.main {
+  background-color: #a7c5eb;
+  text-align: center;
+}
+.navbar-brand {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: bolder;
+}
+.navbar {
+  background-color: #5089c6;
+  padding-bottom: 0px;
+  display: flex;
+  font-weight: bold;
+  color: #ffffff;
+}
+.nav-item {
+  margin-top: 10px;
+}
+.container {
+  margin: 0;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+}
+.college {
+  padding: 0px;
+  margin: 0px;
+  width: 1280px;
+  height: 683.125px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f1f1f1;
+  top: 250px;
+}
+.main-text .heading {
+  font-family: "Alice", serif;
+  font-size: 70px;
+}
+.main-text .subheading {
+  font-family: "Kaisei Opti", serif;
+  font-size: 25px;
+}
+.main-text .subheading2 {
+  padding-top: 20px;
+  font-family: "Kaisei Opti", serif;
+}
+.container2 {
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.container2 .para {
+  font-weight: bold;
+}
+.container2 .hcategory {
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+.container2 .head {
+  padding: 0px auto;
+  font-weight: bold;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 0 70px;
+}
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 20px 20px;
+  overflow: auto;
+}
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.container3 {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+  padding-top: 50px;
+  margin-left: 10px;
+}
+.container3 .heading {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.container3 p {
+  font-size: 24px;
+}
+.row2 {
+  margin: 0 -5px;
+}
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+p {
+  font-size: 20px;
+}
+.category {
+  padding-bottom: 0px;
+  font-weight: normal;
+  font-size: 30px;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+  background-color: #f1f1f1;
+  overflow: auto;
+}
+.card3-image {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.card3-body {
+  margin-left: 210px;
+}
+.card3-btn {
+  width: fit-content;
+}
+.heading {
+  padding: 20px;
+}
+.euniv {
+  width: 400px;
+  height: 200px;
+  display: block;
+}
+.about {
+  padding: 30px;
+}
+.about p {
+  text-align: justify;
+}
+.contact {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+form {
+  padding: 0px;
+  align-items: flex-start;
+}
+input {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+textarea {
+  margin-bottom: 20px;
+  display: flexbox;
+  padding: 5px;
+}
+#lname {
+  margin-left: 32px;
+}
+.message {
+  padding: 50px;
+  text-align: center;
+}
+.bottom-container {
+  background-color: #5089c6;
+  margin-top: 100px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.bottom-container a {
+  margin: 0px 30px;
+  color: black;
+  font-size: 100%;
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+}
+.footer-link {
+  margin: 30px;
+  margin-bottom: 0px;
+}
+a:hover {
+  color: #ffffff;
+}
+.copyright {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.top-container {
+  background-color: #5089c6;
+  font-size: 20px;
+  padding: 20px 0px;
+  text-align: left;
+}
+.top-container a {
+  margin: 20px 30px;
+  color: black;
+  font-size: 100%;
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+}
+.top-container a:hover {
+  color: #f1f1f1;
+}
+.contact h1 {
+  font-family: "Alice", serif;
+}
+.about h1 {
+  font-family: "Alice", serif;
+}
+.btn {
+  background: #5089c6;
+  background-image: -webkit-linear-gradient(top, #5089c6, #4eace6);
+  background-image: -moz-linear-gradient(top, #5089c6, #4eace6);
+  background-image: -ms-linear-gradient(top, #5089c6, #4eace6);
+  background-image: -o-linear-gradient(top, #5089c6, #4eace6);
+  background-image: linear-gradient(to bottom, #5089c6, #4eace6);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
