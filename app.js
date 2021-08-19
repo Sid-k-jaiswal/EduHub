@@ -32,6 +32,9 @@ app.post("/message",function(req,res){
 app.post("/message2",function(req,res){
     res.sendFile('public/message2.html', {root: __dirname })    
 })
-app.listen(3000,function(){
+
+let port = process.env.PORT;
+
+app.listen(port || 3000,function(){
 
 });
